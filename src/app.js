@@ -14,6 +14,7 @@ class Todo {
 	 * @param  {string} The name of your list
 	 */
 	constructor(name) {
+		console.log('Name:',name);
 		this.storage = new Store(name);
 		this.model = new Model(this.storage);
 
